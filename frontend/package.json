@@ -1,1 +1,19 @@
-{\n  "name": "inventorysync-frontend",\n  "version": "1.0.0",\n  "private": true,\n  "scripts": {\n    "dev": "vite",\n    "build": "vite build",\n    "preview": "vite preview",\n    "start": "serve -s dist"\n  },\n  "dependencies": {},\n  "devDependencies": {\n    "vite": "^5.1.0",\n    "serve": "^14.2.0"\n  },\n  "engines": {\n    "node": "18.x"\n  }\n}
+{
+  "name": "inventorysync-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "serve -s dist"
+  },
+  "dependencies": {
+    "vite": "^5.1.0",
+    "serve": "^14.2.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
+}
