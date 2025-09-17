@@ -1,1 +1,36 @@
-
+{
+  "name": "inventorysync",
+  "version": "1.0.0",
+  "description": "Real-time POS & E-commerce Inventory Synchronization",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:all": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "test": "cd backend && npm test",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:build": "docker-compose build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/inventorysync.git"
+  },
+  "keywords": [
+    "inventory",
+    "sync",
+    "pos",
+    "ecommerce",
+    "square",
+    "shopify"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
